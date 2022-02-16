@@ -1,10 +1,9 @@
-import Head from "next/head";
-import { useEffect, useState } from "react";
 import KakaoLoginButton from "../componenents/KakaoLoginButton";
-import Seo from "../componenents/Seo";
 import Link from "next/link";
+import LabelBottomNavigation from "../componenents/LabelBottomNavigation";
 
 const API_KEY = "10923b261ba94d897ac6b81148314a3f";
+
 
 export default function Home(){
 
@@ -36,6 +35,8 @@ export default function Home(){
                 <a>|</a> 
                 <Link href="/login"><a>이메일로 로그인</a></Link>
             </span>
+                <Link href="/main"><a>main page(제작중)</a></Link>
+           
         </div>        
     );
 }
