@@ -36,7 +36,7 @@ export default function Home(){
                 <Link href="/login"><a>이메일로 로그인</a></Link>
             </span>
                 <Link href="/main"><a>main page(제작중)</a></Link>
-           
+            
         </div>        
     );
 }
