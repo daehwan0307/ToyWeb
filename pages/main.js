@@ -1,16 +1,17 @@
 import LabelBottomNavigation from "../componenents/LabelBottomNavigation";
 import LabelUpNavigation from "../componenents/LabelUpNavigation"
-
+import UserCard from "../componenents/UserCard";
 
 export default function MainPage(){
     return(
 
     <div>
         <LabelUpNavigation/>
-        <div>asdf</div>
+        <UserCard/>
+        <UserCard/>
+        <UserCard/>
         <LabelBottomNavigation/>
-
-    </div>  
-                
+    </div>
     );
 }
+

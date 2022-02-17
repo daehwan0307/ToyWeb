@@ -17,7 +17,9 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
+
+    <div>
+    <BottomNavigation  sx={{ width: 520 , bottom:0 }} value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="홈"
         value="recents"
@@ -29,7 +31,7 @@ export default function LabelBottomNavigation() {
         icon={<ChatBubbleOutlineSharpIcon />}
       />
       <BottomNavigationAction
-        label="내근처"
+        label="동네레슨"
         value="community"
         icon={<LocationOnIcon />}
       />
@@ -42,5 +44,6 @@ export default function LabelBottomNavigation() {
       label="마이페이지" value="folder" 
       icon={<PersonSharpIcon />} />
     </BottomNavigation>
+    </div>
   );
 }

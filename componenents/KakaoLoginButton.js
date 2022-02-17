@@ -1,9 +1,9 @@
 import React from "react";
-import { formatMs, IconButton } from "@material-ui/core";
-import {kakaoClientId,kakaoRedirectUri} from "../next.config"
+import {  IconButton } from "@material-ui/core";
 
-const loginUri = `https://kauth.kakao.com/oauth/authorize?client_id=${kakaoClientId}\
-&redirect_uri=${kakaoRedirectUri}&response_type=code`;
+
+const loginUri = `https://kauth.kakao.com/oauth/authorize?client_id=4e0e43146612ec5ab55a1a2123b98013\
+&redirect_uri=http://localhost:3000/main&response_type=code`;
 
 const KakaoLoginButton = () => {
   return (
