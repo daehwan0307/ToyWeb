@@ -6,7 +6,7 @@ import { StyledEngineProvider } from '@mui/material/styles';
 export default function loadPage(){
     return(
         
-        <div>
+        <div style={{height:'100vh'}}>
         <StyledEngineProvider injectFirst>
             <Spinning />
         </StyledEngineProvider>

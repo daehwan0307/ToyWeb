@@ -1,10 +1,10 @@
 import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
+import {Box, Stack} from '@mui/material';
 
 export default function CircularIndeterminate() {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Stack style={{height:'100vh'}} alignItems="center" justifyContent="middle">
       <CircularProgress />
-    </Box>
+    </Stack>
   );
 }

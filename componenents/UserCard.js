@@ -23,16 +23,9 @@ const ExpandMore = styled((props) => {
     duration: theme.transitions.duration.shortest,
   }),
 }));
-const list = [
-  {
-    UserID: 'React',
-    Location: 'Seoul',
-    WriteTime: 4,
-  }
-];
 
 
-export default function RecipeReviewCard() {
+export default function RecipeReviewCard({userID,location,writeTime}) {
   const [expanded, setExpanded] = React.useState(false);
   return (
     <Card sx={{ maxWidth: 500 }}>
@@ -49,13 +42,13 @@ export default function RecipeReviewCard() {
           </IconButton>
           
         }
-        title={list.userID}
-        subheader="청주 흥덕구 13분전"
+        title={userID}
+        subheader={location}
       />
       
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        피아노 가르쳐드리고 영어를 배우고 싶어요
+        {writeTime}
         </Typography>
       </CardContent>
       <CardActions disableSpacing >
