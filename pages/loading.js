@@ -10,6 +10,9 @@ export default function loadPage(){
         <StyledEngineProvider injectFirst>
             <Spinning />
         </StyledEngineProvider>
+    
         </div>
+        
     );
+    
 }
