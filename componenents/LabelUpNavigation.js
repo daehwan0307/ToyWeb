@@ -1,11 +1,9 @@
 import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import PersonPinIcon from '@mui/icons-material/PersonPin';
 import ViewHeadlineSharpIcon from '@mui/icons-material/ViewHeadlineSharp';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
-
-
+import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSharp';
 export default function IconLabelTabs() {
   const [value, setValue] = React.useState(0);
 
@@ -17,7 +15,7 @@ export default function IconLabelTabs() {
     <Tabs>
       <Tab icon={<ViewHeadlineSharpIcon />}  />
       <Tab icon={<SearchSharpIcon />}  />
-      <Tab icon={<PersonPinIcon />}  />
+      <Tab icon={<NotificationsNoneSharpIcon />}  />
     </Tabs>
   );
 }

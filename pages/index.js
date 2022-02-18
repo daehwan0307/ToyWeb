@@ -33,7 +33,7 @@ export default function Home(){
             <span>
                 <Link href="/signin"><a>이메일로 회원가입</a></Link>
                 <a>|</a> 
-                <Link href="/login"><a>이메일로 로그인</a></Link>
+                <Link href="/loading"><a>이메일로 로그인</a></Link>
             </span>
                 <Link href="/main"><a>main page(제작중)</a></Link>
             

@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 export default function SignInPage(){
     return (
@@ -10,11 +10,9 @@ export default function SignInPage(){
              <input type="password" placeholder="비밀번호를 입력해주세요."/>
              <p>비밀번호 확인</p>
              <input type="password" placeholder="비밀번호 확인을 위해 재입력 해주세요."/>
-           
-            <a>이용약관 및 개인정보처리방침 동의 <label><input type="checkbox"></input></label></a> 
-           
-            
-            
+             <hr></hr>
+             <Link href="privacy"><a>이메일로 회원가입   <label><input type="checkbox"></input></label></a></Link>
+       
             <hr>
             </hr>
 
