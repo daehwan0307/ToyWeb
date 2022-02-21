@@ -16,7 +16,7 @@ export default function LabelBottomNavigation() {
   return (
 
     <div>
-    <BottomNavigation  sx={{ width: 520 , bottom:0 }} value={value} onChange={handleChange}>
+    <BottomNavigation  value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="홈"
         value="recents"

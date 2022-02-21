@@ -22,6 +22,7 @@ export default function MainPage(){
     return(
 
     <div>
+        
         <LabelUpNavigation/>
         {
             list.map(data=>
@@ -30,7 +31,7 @@ export default function MainPage(){
                 
                 )
         }
-z
+
         <LabelBottomNavigation/>
     </div>
     );
