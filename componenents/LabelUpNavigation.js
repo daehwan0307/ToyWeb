@@ -12,7 +12,7 @@ export default function IconLabelTabs() {
   };
 
   return (
-    <Tabs>
+    <Tabs sx={{p:2,}}>
       <Tab icon={<ViewHeadlineSharpIcon />}  />
       <Tab icon={<SearchSharpIcon />}  />
       <Tab icon={<NotificationsNoneSharpIcon />}  />
