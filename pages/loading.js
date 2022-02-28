@@ -2,8 +2,7 @@
 import Spinning from "../componenents/Spinning"
 import { StyledEngineProvider } from '@mui/material/styles';
 
-
-export default function loadPage(){
+const loadPage=()=>{
     return(
         
         <div style={{height:'100vh'}}>
@@ -16,3 +15,4 @@ export default function loadPage(){
     );
     
 }
+export default loadPage;
