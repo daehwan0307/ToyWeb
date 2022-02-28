@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-export default function SignInPage(){
+const SignInPage=()=>{
     return (
         
         <div>
@@ -20,3 +19,4 @@ export default function SignInPage(){
         
     );
 }
+export default SignInPage; 

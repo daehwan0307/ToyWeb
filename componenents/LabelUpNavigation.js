@@ -4,7 +4,10 @@ import Tab from '@mui/material/Tab';
 import ViewHeadlineSharpIcon from '@mui/icons-material/ViewHeadlineSharp';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import NotificationsNoneSharpIcon from '@mui/icons-material/NotificationsNoneSharp';
-export default function IconLabelTabs() {
+
+
+
+const IconLabelTabs=()=> {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -19,4 +22,4 @@ export default function IconLabelTabs() {
     </Tabs>
   );
 }
-
+export default IconLabelTabs;

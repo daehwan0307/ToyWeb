@@ -1,5 +1,6 @@
 
-export default function LoginPage(){
+
+const LoginPage=()=>{
     return (
         
         <div>
@@ -14,3 +15,5 @@ export default function LoginPage(){
         
     );
 }
+
+export default LoginPage;

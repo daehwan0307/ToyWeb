@@ -6,7 +6,7 @@ import 'antd/dist/antd.css';
 const API_KEY = "10923b261ba94d897ac6b81148314a3f";
 
 
-export default function Home(){
+const  Home=()=>{
 
     return (
        
@@ -30,3 +30,4 @@ export default function Home(){
     
     );
 }
+export default Home;

@@ -15,7 +15,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 
 
-export default function RecipeReviewCard({userID,location,writeTime}) {
+const RecipeReviewCard=({userID,location,writeTime})=> {
   const [expanded, setExpanded] = React.useState(false);
   return (
     <Card>
@@ -54,3 +54,4 @@ export default function RecipeReviewCard({userID,location,writeTime}) {
     </Card>
   );
 }
+export default RecipeReviewCard;

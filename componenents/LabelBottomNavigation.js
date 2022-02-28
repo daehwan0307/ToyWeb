@@ -6,7 +6,10 @@ import ChatBubbleOutlineSharpIcon from '@mui/icons-material/ChatBubbleOutlineSha
 import PersonSharpIcon from '@mui/icons-material/PersonSharp';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 import ChatSharpIcon from '@mui/icons-material/ChatSharp';
-export default function LabelBottomNavigation() {
+
+
+
+const LabelBottomNavigation=()=> {
   const [value, setValue] = React.useState('recents');
 
   const handleChange = (event, newValue) => {
@@ -44,3 +47,4 @@ export default function LabelBottomNavigation() {
     </div>
   );
 }
+export default LabelBottomNavigation;

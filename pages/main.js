@@ -2,6 +2,7 @@ import LabelBottomNavigation from "../componenents/LabelBottomNavigation";
 import LabelUpNavigation from "../componenents/LabelUpNavigation"
 import UserCard from "../componenents/UserCard";
 import React from "react";
+import { Main } from "next/document";
 
 
 const list = [
@@ -17,8 +18,7 @@ const list = [
       },
   ];
 
-
-export default function MainPage(){
+const MainPage=()=>{
     return(
 
     <div>
@@ -36,4 +36,4 @@ export default function MainPage(){
     </div>
     );
 }
-
+export default MainPage;
