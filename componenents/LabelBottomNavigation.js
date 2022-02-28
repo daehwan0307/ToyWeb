@@ -26,16 +26,6 @@ const LabelBottomNavigation=()=> {
         icon={<HomeSharpIcon />}
       />
       <BottomNavigationAction
-        label="커뮤니티"
-        value="favorites"
-        icon={<ChatBubbleOutlineSharpIcon />}
-      />
-      <BottomNavigationAction
-        label="동네레슨"
-        value="community"
-        icon={<LocationOnIcon />}
-      />
-      <BottomNavigationAction
         label="채팅"
         value="nearby"
         icon={<ChatSharpIcon />}
