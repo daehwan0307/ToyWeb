@@ -13,7 +13,7 @@ const  signin_step1 = ()=>{
 
     </>
     <>
-    
+     
     <Row>
             <Col span={12}><img src="hh.jpg"></img></Col>
             <Col span={12}><button><a>카카오 계정으로 가입</a></button></Col>
