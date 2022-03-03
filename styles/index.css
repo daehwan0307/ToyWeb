@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-3xl;
+
+    }
+
+    h2{
+        @apply text-2xl;
+    }
+
+    h3{
+        @apply text-xl;
+    }
+}
+
+@layer components{
+
+    .row{
+        @apply flex flex-row;
+        @apply items-center justifiy-center;
+    }
+
+    .row-wrap{
+        @apply flex flex-row flex-wrap;
+        @apply items-center justify-center;
+
+    }
+
+    .foo{
+        color:blue !important;
+    }
+
+    .bar{
+        @apply foo;
+    }
+}

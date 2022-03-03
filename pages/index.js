@@ -3,6 +3,9 @@ import Link from "next/link";
 import { Row, Col } from 'antd';
 import 'antd/dist/antd.css';
 
+
+
+
 const API_KEY = "10923b261ba94d897ac6b81148314a3f";
 
 

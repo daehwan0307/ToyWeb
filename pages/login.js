@@ -4,17 +4,21 @@ const LoginPage=()=>{
     return (
         
         <div>
-             <p>이메일 입력</p>
+             <p class="font-sans ">이메일 입력</p>
              <input type="text"  placeholder="이메일을 입력해주세요"/><br></br>
-             <p>비밀번호 입력</p>
+             <p class="text-2xl">비밀번호 입력</p>
              <input type="password" placeholder="비밀번호를 입력해주세요"/>
            
            <hr></hr>
-            <a>비밀번호 찾기</a>
+            <a><p class="text-right">비밀번호 찾기</p></a>
 
         </div>
         
     );
 }
 
-export default LoginPage;npm
+export default LoginPage;
+
+
+
+
