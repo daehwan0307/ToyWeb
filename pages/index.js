@@ -22,8 +22,7 @@ const  Home=()=>{
             <Col span={24}><center><KakaoLoginButton/></center></Col>
         </Row>
         <Row>
-            <Col span={12}><Link href="/signin" passHref><center><a>이메일로 회원가입</a></center></Link></Col>
-            <Col span={12}> <Link href="/login" passHref><center><a>이메일로 로그인</a></center></Link></Col>
+            <Col span={24}><Link href="/signin" passHref><center><a><img src=""></img>이메일로 회원가입</a></center></Link></Col>
         </Row>
         <Row>
             <Col span={24}><Link href="/main" passHref><center><a>main page(제작중)</a></center></Link></Col>
