@@ -2,7 +2,7 @@ import Link from "next/link";
 const SignInPage=()=>{
     return (
         
-        <div>
+        <div class="sm p-8 ">
              <p>이메일을 입력해 주세요</p>
              <input type="text"  placeholder="이메일을 입력해주세요."/><br></br>
              <p>비밀번호 입력</p>

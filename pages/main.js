@@ -21,9 +21,7 @@ const list = [
 const MainPage=()=>{
     return(
 
-    <div>
-        
-        <LabelUpNavigation/>
+    <div class="sm:text-center" >
         {
             list.map(data=>
                 
