@@ -8,7 +8,7 @@ const  Home=()=>{
         <div class="md:text-center">
             <center><img src="/hihi.jpg"  /></center>
             <center><KakaoLoginButton/></center>
-            <Link href="/signin" passHref><center><a><img src=""></img>이메일로 회원가입</a></center></Link>
+            <Link href="/signin" passHref><center><a>이메일로 회원가입</a></center></Link>
             <Link href="/login" passHref><center><a>이메일로 로그인</a></center></Link>
             <Link href="/main" passHref><center><a>main page(제작중)</a></center></Link>
         </div>

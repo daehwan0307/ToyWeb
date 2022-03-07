@@ -1,7 +1,7 @@
 import LabelBottomNavigation from "../componenents/LabelBottomNavigation";
-import LabelUpNavigation from "../componenents/LabelUpNavigation"
 import UserCard from "../componenents/UserCard";
 import React from "react";
+import TopBar from "../componenents/TopBar";
 
 
 
@@ -20,17 +20,10 @@ const list = [
 
 const MainPage=()=>{
     return(
-
-    <div class="sm:text-center" >
-        {
-            list.map(data=>
-                
-                    <UserCard userID={data.userID} location={data.location} writeTime={data.writeTime} />
-                
-                )
-        }
-
-        <LabelBottomNavigation/>
+    
+    <div >
+    <TopBar/>
+    <LabelBottomNavigation/>
     </div>
     );
 }

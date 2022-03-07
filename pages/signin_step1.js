@@ -4,7 +4,7 @@ import Link from "next/link";
 const  signin_step1 = ()=>{
 
     return(
-  <div class="p-8">
+  <div class="p-8 ">
     <h1>SNS 회원가입</h1>
     <h2>1.약관동의</h2>
     <h4>윈윈을 이용하기 위해 이용약관에 동의해 주세요</h4>
