@@ -1,5 +1,3 @@
-import LabelBottomNavigation from "../componenents/LabelBottomNavigation";
-import UserCard from "../componenents/UserCard";
 import React from "react";
 import TopBar from "../componenents/TopBar";
 
@@ -23,7 +21,7 @@ const MainPage=()=>{
     
     <div >
     <TopBar/>
-    <LabelBottomNavigation/>
+
     </div>
     );
 }
