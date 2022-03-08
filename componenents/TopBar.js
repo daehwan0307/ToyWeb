@@ -1,24 +1,31 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAlignJustify, faBell, faLocation, faLocationPin, faMagnifyingGlass, faTruckLoading } from "@fortawesome/free-solid-svg-icons";
+import { faAlignJustify, faBell, faLocation, faLocationPin, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const TopBar =()=>{
     
     return (
-        <header class="top-bar flex h-20">
-            <div class="sm:container h-full flex"></div>    
-                <a href class="flex"><FontAwesomeIcon icon={faLocationPin} size="1x"  /></a>
-                <span>청주시</span>
-                <div class="menue__bar "> 
-                <ul class="flex">
-                    <li><FontAwesomeIcon icon={faMagnifyingGlass} size="1x"  /></li>
-                    <li><FontAwesomeIcon icon={faAlignJustify} size="1x"  /></li>
-                    <li> <FontAwesomeIcon icon={faBell} size="1x" /></li>
-                </ul>
-                </div>
-
-        </header>
- 
+        <header class="top-bar h-20 flex">
+        <div class="lg:container h-full flex flex-column"  >
+          <a href="#" class="top-bar__logo  flex items-center p-7"> </a>
+          <div class="flex-grow"></div>
+          <nav class="top-bar__menu-box-1 h-full">
+            <ul class="flex h-full">
+              <li><a class="flex items-center h-full p-4 px-8 whitespace-nowrap" href="#">은행소개</a></li>
+              <li><a class="flex items-center h-full p-4 px-8 whitespace-nowrap" href="#">상품안내</a></li>
+              <li><a class="flex items-center h-full p-4 px-8 whitespace-nowrap" href="#">고객센터</a></li>
+              <li><a class="flex items-center h-full p-4 px-8 whitespace-nowrap"href="#">이벤트</a></li>
+            </ul>
+          </nav>
+          <a href="" class="btn-go-submit-page self-center 
+      bg-yellow-200 rounded-2xl p-1 px-4 whitespace-nowrap">
+            서류 제출하기
+          </a>
+        </div>
+      </header>
+      
+      
+      
     );
 }
 

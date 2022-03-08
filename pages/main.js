@@ -1,6 +1,5 @@
-import React from "react";
 import TopBar from "../componenents/TopBar";
-
+import TopBarNew from"../componenents/TopBarNew";
 
 
 const list = [
@@ -21,6 +20,8 @@ const MainPage=()=>{
     
     <div >
     <TopBar/>
+    <TopBarNew/>
+    <hr></hr>
 
     </div>
     );
