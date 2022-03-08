@@ -5,37 +5,19 @@ import { faAlignJustify, faBell, faLocation, faLocationPin, faMagnifyingGlass, f
 const TopBar =()=>{
     
     return (
-        <div class="flex">
-                   <header className="top-bar h-36 bg-black flex">
-            <FontAwesomeIcon icon={faLocationPin} size="1x"  />
-            <span >청주시</span>
-            <ul class="flex bg-teal-400">
-                <li>
-                    <a>
-                    <span>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} size="1x"  />
-                    </span>
-                    </a>
-                </li>
-                <li>
-                    <a> 
-                    <span>
-                    <FontAwesomeIcon icon={faAlignJustify} size="1x"  />
-                    </span>
-                    </a>
-                </li>
-                <li>
-                    <a>
-                    <span>
-                    <FontAwesomeIcon icon={faBell} size="1x" />
-                    </span>
-                    </a>
-                </li>
-                
-            </ul>
-        
+        <header class="top-bar flex h-20">
+            <div class="sm:container h-full flex"></div>    
+                <a href class="flex"><FontAwesomeIcon icon={faLocationPin} size="1x"  /></a>
+                <span>청주시</span>
+                <div class="menue__bar "> 
+                <ul class="flex">
+                    <li><FontAwesomeIcon icon={faMagnifyingGlass} size="1x"  /></li>
+                    <li><FontAwesomeIcon icon={faAlignJustify} size="1x"  /></li>
+                    <li> <FontAwesomeIcon icon={faBell} size="1x" /></li>
+                </ul>
+                </div>
+
         </header>
-        </div>
  
     );
 }
